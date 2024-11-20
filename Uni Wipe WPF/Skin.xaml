@@ -1,0 +1,47 @@
+﻿<Window x:Class="Uni_Wipe_WPF.Skin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Uni_Wipe_WPF"
+        mc:Ignorable="d"
+        Title="Skin" Height="300" Width="300" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Topmost="True" WindowStyle="ToolWindow">
+
+    <Window.Resources>
+        <SolidColorBrush x:Key="magicBrush" Color="WhiteSmoke"/>
+    </Window.Resources>
+
+
+
+
+
+
+
+
+
+
+    <Grid Background="{StaticResource magicBrush}" >
+
+
+
+        <Slider x:Name="sliderr" HorizontalAlignment="Left" Margin="104,48,0,0" VerticalAlignment="Top" Width="164" Maximum="255" ValueChanged="sliderg_ValueChanged"/>
+
+
+
+        <Slider x:Name="sliderg" HorizontalAlignment="Left" Margin="105,86,0,0" VerticalAlignment="Top" Width="164" Maximum="255" ValueChanged="sliderg_ValueChanged"/>
+
+
+
+        <Slider x:Name="sliderb" HorizontalAlignment="Left" Margin="104,119,0,0" VerticalAlignment="Top" Width="164" Maximum="255" ValueChanged="sliderg_ValueChanged" />
+
+
+
+
+
+
+
+
+
+
+    </Grid>
+</Window>

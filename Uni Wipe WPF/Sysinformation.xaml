@@ -1,0 +1,57 @@
+﻿<Window x:Class="Uni_Wipe_WPF.Sysinformation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Uni_Wipe_WPF"
+        mc:Ignorable="d"
+        Title="Sysinformation" Height="260.859" Width="522.712" ResizeMode="NoResize">
+    <Grid Margin="0,0,2,0">
+        <Label x:Name="label1" Content="OSPlatform" HorizontalAlignment="Left" Margin="5,66,0,0" VerticalAlignment="Top" Height="34" Width="89" FontSize="13.333" FontFamily="Arial" FontWeight="Bold"/>
+        <Label x:Name="label2" Content="RAM" HorizontalAlignment="Left" Margin="11,108,0,0" VerticalAlignment="Top" FontSize="13.333" FontFamily="Arial" FontWeight="Bold"/>
+        <Label x:Name="label3" Content="Processer" HorizontalAlignment="Left" Margin="8,150,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.176,-0.254" FontSize="13.333" FontFamily="Arial" FontWeight="Bold"/>
+        <Label x:Name="label4" Content="Recomended" HorizontalAlignment="Left" Margin="130,22,0,0" VerticalAlignment="Top" FontSize="13.333" FontFamily="Arial" FontWeight="Bold"/>
+        <Label x:Name="label5" Content="This System" HorizontalAlignment="Left" Margin="240,25,0,0" VerticalAlignment="Top" FontSize="13.333" FontFamily="Arial" FontWeight="Bold"/>
+        <Label x:Name="label6" Content="Win Or Mac" HorizontalAlignment="Left" Margin="130,66,0,0" VerticalAlignment="Top" FontSize="13.333" FontFamily="Arial" FontWeight="Bold"/>
+        <Label x:Name="label7" Content="512 MB" HorizontalAlignment="Left" Margin="130,110,0,0" VerticalAlignment="Top" FontSize="13.333" FontFamily="Arial" FontWeight="Bold"/>
+        <Label x:Name="label8" Content="500 MHz" HorizontalAlignment="Left" Margin="130,153,0,0" VerticalAlignment="Top" FontSize="13.333" FontFamily="Arial" FontWeight="Bold"/>
+        <Label x:Name="label9" Content="Label" HorizontalAlignment="Left" Margin="255,68,0,0" VerticalAlignment="Top" FontSize="13.333" FontFamily="Arial" FontWeight="Bold"/>
+        <Label x:Name="label10" Content="Label" HorizontalAlignment="Left" Margin="253,111,0,0" VerticalAlignment="Top" FontSize="13.333" FontFamily="Arial" FontWeight="Bold"/>
+        <Label x:Name="label11" Content="Label" HorizontalAlignment="Left" Margin="255,156,0,0" VerticalAlignment="Top" FontSize="13.333" FontFamily="Arial" FontWeight="Bold"/>
+        <Grid HorizontalAlignment="Left" Height="110" Margin="420,70,0,0" VerticalAlignment="Top" Width="75" Background="#FFF3EBEB">
+            <Image x:Name="image1" HorizontalAlignment="Left" Height="22" Margin="4,3,0,0" VerticalAlignment="Top" Width="45" Visibility="Hidden"/>
+            <Label x:Name="label12" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.482,0.584" Height="23" Width="29" Margin="0,3,0,0">
+                <Label.Background>
+                    <ImageBrush ImageSource="pack://siteoforigin:,,,/Image/Enable.png" Stretch="None"/>
+                </Label.Background>
+            </Label>
+            <Label x:Name="label15" Content="" HorizontalAlignment="Left" Margin="43,2,0,0" VerticalAlignment="Top" Width="30">
+                <Label.Background>
+                    <ImageBrush ImageSource="pack://siteoforigin:,,,/Image/Disable.png" Stretch="None"/>
+                </Label.Background>
+            </Label>
+            <Label x:Name="label13" Content="" HorizontalAlignment="Left" Margin="1,43,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.482,0.584" Height="23" Width="29">
+                <Label.Background>
+                    <ImageBrush ImageSource="pack://siteoforigin:,,,/Image/Enable.png" Stretch="None"/>
+                </Label.Background>
+            </Label>
+            <Label x:Name="label14" Content="" HorizontalAlignment="Left" Margin="0,74,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.482,0.584" Height="23" Width="29">
+                <Label.Background>
+                    <ImageBrush ImageSource="pack://siteoforigin:,,,/Image/Enable.png" Stretch="None"/>
+                </Label.Background>
+            </Label>
+            <Label x:Name="label16" Content="" HorizontalAlignment="Left" Margin="43,42,0,0" VerticalAlignment="Top" Width="30">
+                <Label.Background>
+                    <ImageBrush ImageSource="pack://siteoforigin:,,,/Image/Disable.png" Stretch="None"/>
+                </Label.Background>
+            </Label>
+            <Label x:Name="label17" Content="" HorizontalAlignment="Left" Margin="44,74,0,0" VerticalAlignment="Top" Width="30">
+                <Label.Background>
+                    <ImageBrush ImageSource="pack://siteoforigin:,,,/Image/Disable.png" Stretch="None"/>
+                </Label.Background>
+            </Label>
+        </Grid>
+        <Button x:Name="BtClose" Content="Close" HorizontalAlignment="Left" Height="29" Margin="441,193,0,0" VerticalAlignment="Top" Width="49" Click="BtClose_Click"/>
+
+    </Grid>
+</Window>

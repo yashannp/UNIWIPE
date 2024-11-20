@@ -1,0 +1,42 @@
+F:\E Soft\Uni Wipe\Uni Wipe WPF\TaskBarIcon\bin\Debug\UNI-ICON.ico
+F:\E Soft\Uni Wipe\Uni Wipe WPF\TaskBarIcon\bin\Debug\TaskBarIcon.exe.config
+F:\E Soft\Uni Wipe\Uni Wipe WPF\TaskBarIcon\bin\Debug\TaskBarIcon.exe
+F:\E Soft\Uni Wipe\Uni Wipe WPF\TaskBarIcon\bin\Debug\TaskBarIcon.pdb
+F:\E Soft\Uni Wipe\Uni Wipe WPF\TaskBarIcon\bin\Debug\Uni Wipe WPF.exe
+F:\E Soft\Uni Wipe\Uni Wipe WPF\TaskBarIcon\bin\Debug\Uni Wipe WPF.pdb
+F:\E Soft\Uni Wipe\Uni Wipe WPF\TaskBarIcon\obj\Debug\TaskBarIcon.csprojResolveAssemblyReference.cache
+F:\E Soft\Uni Wipe\Uni Wipe WPF\TaskBarIcon\obj\Debug\MainWindow.g.cs
+F:\E Soft\Uni Wipe\Uni Wipe WPF\TaskBarIcon\obj\Debug\App.g.cs
+F:\E Soft\Uni Wipe\Uni Wipe WPF\TaskBarIcon\obj\Debug\TaskBarIcon_MarkupCompile.cache
+F:\E Soft\Uni Wipe\Uni Wipe WPF\TaskBarIcon\obj\Debug\TaskBarIcon_MarkupCompile.lref
+F:\E Soft\Uni Wipe\Uni Wipe WPF\TaskBarIcon\obj\Debug\MainWindow.baml
+F:\E Soft\Uni Wipe\Uni Wipe WPF\TaskBarIcon\obj\Debug\TaskBarIcon.g.resources
+F:\E Soft\Uni Wipe\Uni Wipe WPF\TaskBarIcon\obj\Debug\TaskBarIcon.Properties.Resources.resources
+F:\E Soft\Uni Wipe\Uni Wipe WPF\TaskBarIcon\obj\Debug\TaskBarIcon.csproj.GenerateResource.Cache
+F:\E Soft\Uni Wipe\Uni Wipe WPF\TaskBarIcon\obj\Debug\TaskBarIcon.exe
+F:\E Soft\Uni Wipe\Uni Wipe WPF\TaskBarIcon\obj\Debug\TaskBarIcon.pdb
+F:\Uni Wipe\Uni Wipe WPF\TaskBarIcon\obj\Debug\MainWindow.g.cs
+F:\Uni Wipe\Uni Wipe WPF\TaskBarIcon\obj\Debug\App.g.cs
+F:\Uni Wipe\Uni Wipe WPF\TaskBarIcon\obj\Debug\TaskBarIcon_MarkupCompile.cache
+F:\Uni Wipe\Uni Wipe WPF\TaskBarIcon\obj\Debug\TaskBarIcon_MarkupCompile.lref
+F:\Uni Wipe\Uni Wipe WPF\TaskBarIcon\bin\Debug\UNI-ICON.ico
+F:\Uni Wipe\Uni Wipe WPF\TaskBarIcon\bin\Debug\TaskBarIcon.exe.config
+F:\Uni Wipe\Uni Wipe WPF\TaskBarIcon\bin\Debug\TaskBarIcon.exe
+F:\Uni Wipe\Uni Wipe WPF\TaskBarIcon\bin\Debug\TaskBarIcon.pdb
+F:\Uni Wipe\Uni Wipe WPF\TaskBarIcon\bin\Debug\Uni Wipe WPF.exe
+F:\Uni Wipe\Uni Wipe WPF\TaskBarIcon\bin\Debug\Uni Wipe WPF.pdb
+F:\Uni Wipe\Uni Wipe WPF\TaskBarIcon\obj\Debug\TaskBarIcon.csprojResolveAssemblyReference.cache
+F:\Uni Wipe\Uni Wipe WPF\TaskBarIcon\obj\Debug\MainWindow.baml
+F:\Uni Wipe\Uni Wipe WPF\TaskBarIcon\obj\Debug\TaskBarIcon.g.resources
+F:\Uni Wipe\Uni Wipe WPF\TaskBarIcon\obj\Debug\TaskBarIcon.Properties.Resources.resources
+F:\Uni Wipe\Uni Wipe WPF\TaskBarIcon\obj\Debug\TaskBarIcon.csproj.GenerateResource.Cache
+F:\Uni Wipe\Uni Wipe WPF\TaskBarIcon\obj\Debug\TaskBarIcon.exe
+F:\Uni Wipe\Uni Wipe WPF\TaskBarIcon\obj\Debug\TaskBarIcon.pdb
+F:\Uni Wipe\Uni Wipe WPF\TaskBarIcon\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+F:\Uni Wipe\Uni Wipe WPF\TaskBarIcon\bin\Debug\Microsoft.WindowsAPICodePack.dll
+F:\Uni Wipe\Uni Wipe WPF\TaskBarIcon\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+F:\Uni Wipe\Uni Wipe WPF\TaskBarIcon\bin\Debug\Microsoft.WindowsAPICodePack.xml
+F:\E Soft\Uni Wipe\Uni Wipe WPF\TaskBarIcon\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+F:\E Soft\Uni Wipe\Uni Wipe WPF\TaskBarIcon\bin\Debug\Microsoft.WindowsAPICodePack.dll
+F:\E Soft\Uni Wipe\Uni Wipe WPF\TaskBarIcon\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+F:\E Soft\Uni Wipe\Uni Wipe WPF\TaskBarIcon\bin\Debug\Microsoft.WindowsAPICodePack.xml

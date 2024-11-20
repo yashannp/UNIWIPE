@@ -34,7 +34,7 @@ namespace Uni_Wipe_WPF
 
 
 
-
+        /* Parameters -------------------------------------------------------------- */
         #region // Parameters
 
         public bool isTotalWipe = false;
@@ -54,11 +54,11 @@ namespace Uni_Wipe_WPF
 
 
 
+        /* End OF the Parameters--------------------------------------------------- */
 
 
 
-
-
+        /* Form Move -----------------------------------------------------------*/
 
         #region  // Form Move 
 
@@ -72,14 +72,24 @@ namespace Uni_Wipe_WPF
         #endregion
 
 
+        /* End Of the Form Move -----------------------------------------------*/
 
+
+
+        /* Timer ----------------------------------------------------------*/
 
         private DispatcherTimer _timer;
 
+         // End OF the Timer -------------------------------------------/
 
 
-        private Dictionary<int, HDD> hddDrives = new Dictionary<int, HDD>();
+        /* SMART Information Dictinery Loading --------------------------------------------- */
 
+
+         private Dictionary<int, HDD> hddDrives = new Dictionary<int, HDD>();
+
+
+        /* End OF the Loading Dictionery ----------------------------------------*/
 
 
 
@@ -89,16 +99,13 @@ namespace Uni_Wipe_WPF
 
 
             InitializeComponent();
+
+
+
             InitializeTimer();
-
-
             LoadDrives();
-
-
-            SetupDriveWatchers();
-
+            SetupDriveWatchers();        
             LoadHddData();
-
             InitializeDriveInfo(textBlock_HDDinfor);
 
 
@@ -106,9 +113,10 @@ namespace Uni_Wipe_WPF
 
 
 
+
+            /* Driver load To the Combobox reset -------------------------------------*/
+
             #region  // Combo Box getting to zero 
-
-
 
             ComboSystem.SelectedIndex = 0;
             Passess.SelectedIndex = 0;
@@ -116,8 +124,12 @@ namespace Uni_Wipe_WPF
 
             #endregion
 
+            /*  end  Driver load To the Combobox reset -----------------------------*/
 
 
+
+
+            /* Driver Loading  to Format Section Combo---------------------------------------- */
 
             #region // load Driver to the Drive list Combo box
 
@@ -144,6 +156,9 @@ namespace Uni_Wipe_WPF
             }
 
 
+            #endregion   End of the Driver loding in the Format Section 
+
+            /* End Driver Loading  to Format Section Combo --------------------------------- */
 
 
 
@@ -154,37 +169,7 @@ namespace Uni_Wipe_WPF
 
 
 
-
-
-
-
-
-
-
-            #endregion
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            /*  Starting a Startup Information Section -----------------------------------*/
 
 
             #region // Startup Information
@@ -598,7 +583,7 @@ namespace Uni_Wipe_WPF
             txtblock_other.Text = systemInfo.ToString();
 
 
-            
+
 
 
             #endregion  End Of the Text Box  other Show
@@ -610,11 +595,12 @@ namespace Uni_Wipe_WPF
 
             #endregion
 
+            /* End OF the Starting a Startup Information Section -----------------------------------*/
 
 
 
 
-
+            /* Form Move logic ---------------------------------------------*/
 
             #region    // Form Move
 
@@ -627,7 +613,7 @@ namespace Uni_Wipe_WPF
 
 
 
-
+            /* End OF the Form Move logic --------------------------------*/
 
 
 
@@ -637,7 +623,7 @@ namespace Uni_Wipe_WPF
 
 
 
-
+          /* Form TAb Menu --------------------------------------------*/
 
         #region // Menu Item
 
@@ -667,8 +653,12 @@ namespace Uni_Wipe_WPF
         #endregion
 
 
+        /* End OF the Form TAb Menu --------------------------------------------*/
 
 
+
+
+        /* Form Move Using a Mouse Interaction ---------------------------*/
 
         #region // Form Move
 
@@ -700,6 +690,20 @@ namespace Uni_Wipe_WPF
                 this.ReleaseMouseCapture();
             }
         }
+
+        #endregion // Form Move
+
+        /* end Of the Form Move Using a Mouse Interaction ---------------------------*/
+
+
+
+
+
+
+        /* Form Max Mini Exit Button ------------------------------------------*/
+
+
+        #region Form Button Side
 
 
 
@@ -740,24 +744,21 @@ namespace Uni_Wipe_WPF
             this.Visibility = Visibility.Hidden;
             this.ShowInTaskbar = false;
 
-
-
-
-
-
-
-
-
-
-
         }
 
 
+        #endregion 
 
 
-        #endregion
+
+        /* End Of the Form Max Mini Exit Button ------------------------------------------*/
 
 
+
+
+
+
+            /* Timer of the Main Window -----------------------------------*/
 
 
         #region // Timer Status Bar
@@ -793,13 +794,13 @@ namespace Uni_Wipe_WPF
         #endregion
 
 
+        // End OF the Timer ------------------------------------------------------//
 
 
 
 
 
-
-
+            // Anomation of the Button MAX MIN EXIT ----------------------------------------//
 
         #region // Mouse Close and Mini Max Button
 
@@ -808,39 +809,20 @@ namespace Uni_Wipe_WPF
         private void Button_MouseEnterclose(object sender, MouseEventArgs e)
         {
 
-
-
             Image imclose1 = new Image();
             imclose1.Source = new BitmapImage(new Uri("pack://siteoforigin:,,,/Image/close2.jpg"));
 
             Button_Exit.Content = imclose1;
 
-
-
         }
-
-
-
-
 
         private void Button_MouseLeaveclose(object sender, System.Windows.Input.MouseEventArgs e)
         {
-
-
-
             Image imclose2 = new Image();
             imclose2.Source = new BitmapImage(new Uri("pack://siteoforigin:,,,/Image/close1.jpg"));
 
             Button_Exit.Content = imclose2;
-
-
-
-
         }
-
-
-
-
 
         private void Button_MouseEnterMaxi(object sender, MouseEventArgs e)
         {
@@ -852,38 +834,19 @@ namespace Uni_Wipe_WPF
 
             Bt_Maxi.Content = imMaxi1;
 
-
-
         }
-
-
-
-
 
         private void Button_MouseLeaveMaxi(object sender, MouseEventArgs e)
         {
-
-
-
             Image imMaxi1 = new Image();
             imMaxi1.Source = new BitmapImage(new Uri("pack://siteoforigin:,,,/Image/max1.jpg"));
 
             Bt_Maxi.Content = imMaxi1;
-
-
-
-
         }
-
-
-
-
-
 
 
         private void Button_MouseEnterMini(object sender, MouseEventArgs e)
         {
-
 
 
             Image imMini1 = new Image();
@@ -891,84 +854,34 @@ namespace Uni_Wipe_WPF
 
             Bt_mini.Content = imMini1;
 
-
-
         }
-
-
-
 
 
         private void Button_MouseLeaveMini(object sender, MouseEventArgs e)
         {
-
-
 
             Image imMini2 = new Image();
             imMini2.Source = new BitmapImage(new Uri("pack://siteoforigin:,,,/Image/mini1.jpg"));
 
             Bt_mini.Content = imMini2;
 
-
-
-
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         #endregion
 
+        // End OF the Button Animation -----------------------------------------------//
 
 
 
 
 
+
+
+
+
+            // Show About Dialog ------------------------------------------------//
 
         #region // Show about Dialog
-
-
-
-
 
         private void MenuItem_Click_2(object sender, RoutedEventArgs e)
         {
@@ -976,12 +889,9 @@ namespace Uni_Wipe_WPF
             about1.Show();
         }
 
-
-
-
-
         #endregion
 
+        // End OF the Show About Dialog ------------------------------------------------//
 
 
 
@@ -991,12 +901,11 @@ namespace Uni_Wipe_WPF
 
 
 
+    // Format Section ---------------------------------------------------//
 
 
 
-
-
-        #region  // Format  Working
+       
 
 
 
@@ -1005,8 +914,6 @@ namespace Uni_Wipe_WPF
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
-
-
 
             #region Main
 
@@ -1025,9 +932,6 @@ namespace Uni_Wipe_WPF
                 percentMainBar.Visibility = Visibility.Visible;
                 sinceLabel.Visibility = Visibility.Visible;
                 #endregion
-
-
-
 
 
 
@@ -1155,46 +1059,36 @@ namespace Uni_Wipe_WPF
         }
 
 
-             //   catch (Exception ex)
-             //   {
-              //      MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-             //   }
-             //   finally
-              //  {
-                    // UI Unlock
-               //     LockUI(false);
-              //  }
 
 
+        // Future Devolopement Becasue now getting Error
+
+        /*        
+
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
+                finally
+                {
+                     UI Unlock
+                    LockUI(false);
+                }
 
 
+ Drive lock Future Divolopment 
+
+        public void LockUI(bool isLocked)
+       {
+            ComboSystem.IsEnabled = !isLocked;
+            Passess.IsEnabled = !isLocked;
+           DriveList.IsEnabled = !isLocked;
+           mainButton.IsEnabled = !isLocked;
+            ProgressBar1.IsIndeterminate = isLocked;
+       }
 
 
-
-
-
-
-
-
-            
-
-        
-
-
-
-// Drive lock Future Divolopment 
-
-   //     public void LockUI(bool isLocked)
-    //    {
-      //      ComboSystem.IsEnabled = !isLocked;
-    //        Passess.IsEnabled = !isLocked;
-     //       DriveList.IsEnabled = !isLocked;
-   //         mainButton.IsEnabled = !isLocked;
-    //        ProgressBar1.IsIndeterminate = isLocked;
-   //     }
-
-
-
+    */
 
 
 
@@ -1571,9 +1465,14 @@ namespace Uni_Wipe_WPF
 
 
 
+        // End Of the Format ------------------------------------------------//
 
 
 
+
+
+
+            // Application Closing -------------------------------------------//
 
         #region // Application Closing
 
@@ -1604,6 +1503,8 @@ namespace Uni_Wipe_WPF
 
 
 
+        // End Of the Application Closing -------------------------------//
+
 
 
 
@@ -1612,6 +1513,11 @@ namespace Uni_Wipe_WPF
         /// This section references the work of several sources, including 
         /// Llewellyn Kruger, ChatGPT, GitHub Copilot, Black Box AI, various Google sources, and the author.
         /// </summary>
+
+
+
+            // Start OF the SMART -----------------------------------------------//
+
 
 
         #region DISK SMART DATA
@@ -1777,11 +1683,7 @@ namespace Uni_Wipe_WPF
 
 
 
-
-
-
-
-
+        
 
         private void DisplaySmartData(HDD hdd)
         {
@@ -1872,10 +1774,6 @@ namespace Uni_Wipe_WPF
 
 
 
-
-
-
-
             labelTemp.Content = "Temp: N/A";
 
 
@@ -1925,12 +1823,7 @@ namespace Uni_Wipe_WPF
         }
 
 
-
-
-
-
-
-
+        
 
         private async void but_Test_Click(object sender, RoutedEventArgs e)
 
@@ -2201,7 +2094,7 @@ namespace Uni_Wipe_WPF
 
 
 
-
+        //End OF the SMART ------------------------------------------------------//
 
 
 
@@ -2215,7 +2108,7 @@ namespace Uni_Wipe_WPF
         /// ChatGPT , Writer   
         /// </summary>
 
-
+         // File Backup System -----------------------------------------------------//
 
 
         #region   Backup  File 
@@ -2473,6 +2366,8 @@ namespace Uni_Wipe_WPF
         /// <param name="Report Generate And Save Data To file"></param>
 
 
+            // Report Generation Section --------------------------------------//
+
         #region Report Generat And Save 
 
         private void MenuItem_Click_3(object sender, RoutedEventArgs e)
@@ -2645,7 +2540,13 @@ namespace Uni_Wipe_WPF
 
         }
 
-         #endregion  //  End Of the Report Generation and Save Section 
+         #endregion End OF the Report 
+        
+        
+        
+        
+        
+        //  End Of the Report Generation and Save Section ----------------------------// 
 
 
 
@@ -2686,15 +2587,24 @@ namespace Uni_Wipe_WPF
 
 
 
+        // End OF the Backup System -----------------------------------------------//
 
 
+
+
+
+
+
+
+
+    
 
 /// <summary>
 /// Font Size Controll in the other TAB 
 ///  Writer and Chat GPT 
 /// </summary>
 
-
+    // Other Infomation Font Size Controll ------------------------------------------//
 
 # region   // Font Size Control in Other TAB
 
@@ -2731,28 +2641,9 @@ namespace Uni_Wipe_WPF
 
 
 
-#endregion  // Slider controll in the Other TAB 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #endregion
+
+
+
+        // End Of the  Slider controll in the Other TAB ---------------------------------------//
+
